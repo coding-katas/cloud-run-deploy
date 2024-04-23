@@ -1,0 +1,17 @@
+# Ignore common Terraform files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*tfplan*
+
+# Ignore generated files
+main.tf
+
+# Ignore generated files
+**/clouddeploy-config/*.yaml
+tutorials/e2e-run/app-config/*.yaml
+tutorials/verification-run/app-config/*.yaml
+artifacts.json
+skaffold.yaml
